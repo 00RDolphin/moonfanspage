@@ -10,6 +10,7 @@
 @media (width >= 1044px) {
 	.mw-body {
 		margin-left: 10em !important;
+		border-left-width: 1px !important;
 	}
 	#mw-panel {
 		display: block !important;
@@ -25,6 +26,7 @@
 }
 .mw-body {
     border: 1px solid #a7d7f9;
+	border-left-width: 0;
 	border-top-width: 0;
     border-right-width: 0;
 	background-color: #ffffff;
