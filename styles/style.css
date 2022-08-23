@@ -1,7 +1,6 @@
 @media (width < 1044px) {
 	.mw-body {
 		margin-left: 0em !important;
-		border-left-width: 0em !important;
 	}
 	#mw-panel {
 		display: none !important;
