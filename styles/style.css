@@ -1,10 +1,18 @@
 @media (width < 1044px) {
-	#mw-panel {
-		display: none !important;
-	}
 	.mw-body {
 		margin-left: 0em !important;
 		border-left-width: 0em !important;
+	}
+	#mw-panel {
+		display: none !important;
+	}
+}
+@media (width >= 1044px) {
+	.mw-body {
+		margin-left: 10em !important;
+	}
+	#mw-panel {
+		display: block !important;
 	}
 }
 #mw-page-base {
@@ -19,7 +27,6 @@
     border: 1px solid #a7d7f9;
 	border-top-width: 0;
     border-right-width: 0;
-	margin-left: 10em;
 	background-color: #ffffff;
     color: #222222;
     padding: 1em;
