@@ -1,3 +1,12 @@
+@media screen and (max-width: 720px) {
+	#mw-panel {
+		display: none !important;
+	}
+	.mw-body {
+		margin-left: 0em !important;
+		border-left-width: 0em !important;
+	}
+}
 #mw-page-base {
     //height: 0em;
 }
@@ -16,7 +25,7 @@
     padding: 1em;
     direction: ltr;
 }
-.mw-body h1{
+.mw-body h1 {
     margin-bottom: 0.25em;
     line-height: 1.3;
 	border-bottom: 1px solid #a2a9b1;
@@ -27,9 +36,12 @@
 }
 .mw-body-content {
     position: relative;
-    font-size: 0.875em;
-    line-height: 1.6;
     z-index: 0;
+}
+.mw-body-content h2 {
+    margin-top: 1em;
+    font-size: 1.5em;
+	border-bottom: 1px solid #a2a9b1;
 }
 #mw-panel {
     position: absolute;
@@ -41,11 +53,24 @@
     margin-left: 0.5em;
     margin: 0;
     padding: 0.25em 0;
-    font-size: 0.75em;
+    font-size: 0.875em;
     line-height: 1.125em;
     word-wrap: break-word;
 }
 .toc {
     display: table;
     padding: 7px;
+}
+::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
+}
+#info {
+	text-align: left;
+	width: 100% !important;
+    max-width: 720px !important;
 }
