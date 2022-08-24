@@ -2,7 +2,7 @@
 	.mw-body {
 		margin-left: 0em !important;
 	}
-	#mw-panel {
+	#mw-panel .portal {
 		display: none !important;
 	}
 }
@@ -11,7 +11,7 @@
 		margin-left: 10em !important;
 		border-left-width: 1px !important;
 	}
-	#mw-panel {
+	#mw-panel .portal{
 		display: block !important;
 	}
 }
