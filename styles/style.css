@@ -73,7 +73,7 @@
 		display: none !important;
 		position: static !important;
 		overflow-y: hidden !important;
-		font-size: 1.5em;
+		font-size: 1.5em !important;
 	}
 }
 @media (width >= 1044px) {
