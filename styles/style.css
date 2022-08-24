@@ -5,6 +5,7 @@
 	#mw-panel {
 		display: none !important;
 		position: static !important;
+		overflow-y: hidden !important;
 	}
 }
 @media (width >= 1044px) {
