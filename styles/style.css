@@ -6,6 +6,7 @@
 		display: none !important;
 		position: static !important;
 		overflow-y: hidden !important;
+		font-size: 1.5em;
 	}
 }
 @media (width >= 1044px) {
