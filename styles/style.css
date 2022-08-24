@@ -2,8 +2,9 @@
 	.mw-body {
 		margin-left: 0em !important;
 	}
-	#mw-panel .portal-body {
+	#mw-panel .portal .portal-body {
 		display: none !important;
+		position: static !important;
 	}
 }
 @media (width >= 1044px) {
@@ -11,7 +12,7 @@
 		margin-left: 10em !important;
 		border-left-width: 1px !important;
 	}
-	#mw-panel .portal-body {
+	#mw-panel .portal .portal-body {
 		display: block !important;
 	}
 }
