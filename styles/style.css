@@ -36,6 +36,7 @@
     color: #222222;
     padding: 1em;
     direction: ltr;
+	font-size: 100%;
 }
 .mw-body h1 {
     margin-bottom: 0.25em;
