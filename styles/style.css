@@ -16,6 +16,8 @@
     padding: 1em;
     direction: ltr;
 	font-size: 100%;
+	margin-left: 10em;
+	border-left-width: 1px;
 }
 .mw-body h1 {
     margin-bottom: 0.25em;
@@ -36,17 +38,14 @@
 	border-bottom: 1px solid #a2a9b1;
 }
 #mw-panel {
-    top: 160px;
-    width: 10em;
-    left: 0;
-    font-size: inherit;
-	margin-top: 10em;
-    margin-left: 0.5em;
+	position: absolute;
+	top: 160px;
+	left: 0;
+	width: 10em;
     margin: 0;
     padding: 0.25em 0;
     font-size: 0.875em;
     line-height: 1.125em;
-    word-wrap: break-word;
 }
 .toc {
     display: table;
@@ -65,24 +64,17 @@
 	width: 100% !important;
     max-width: 720px !important;
 }
-@media (width < 1044px) {
+@media only screen and (max-width: 1044px) {
 	.mw-body {
 		margin-left: 0em !important;
+		border-left-width: 0em !important;
 	}
 	#mw-panel {
-		display: none !important;
 		position: static !important;
 		overflow-y: hidden !important;
 		font-size: 1.5em !important;
 	}
-}
-@media (width >= 1044px) {
-	.mw-body {
-		margin-left: 10em !important;
-		border-left-width: 1px !important;
-	}
-	#mw-panel {
-		display: block !important;
-		position: absolute !important;
+	.mw-body > img {
+	position: sticky;
 	}
 }
